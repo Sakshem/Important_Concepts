@@ -45,3 +45,8 @@ int main()
         cout << "Key was found in index: " << index << '\n';
     return 0;
 }
+/*
+Here the time complexity of the binarySearch function is O(log(n)) base 2.
+since we are traversing through the array we are in a way decreasing the value of n (length of the array)
+like this: N -> N/2 -> N/4 ->...... 1->0. 
+*/
