@@ -2,7 +2,7 @@
 using namespace std;
 /*
     IMP NOTE:
-    I used a vector here you can you use a normal array
+    I used a vector here, you can also you use a normal array
     it would work the same! :)
  */
 int binarySearch(vector<int> &B, int n, int key)
@@ -46,7 +46,7 @@ int main()
     return 0;
 }
 /*
-Here the time complexity of the binarySearch function is O(log(n)) base 2.
+Here, time complexity of the binarySearch function is O(log(n)) base 2.
 since we are traversing through the array we are in a way decreasing the value of n (length of the array)
 like this: N -> N/2 -> N/4 ->...... 1->0. 
 */
