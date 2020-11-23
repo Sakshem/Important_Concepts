@@ -34,7 +34,10 @@ int main()
     //Now trick to figure decimal value of a binary number
     //suppose we have a binary number 
     //00001011
-    //here 0th index is 1, 1th index is 2, 2th index is 4, 3th index is 4
+    //here 0th index is 1, 1th index is 2, 2th index is 4, 3th index is 8
+    //from right to left (<-)
+    //0th index is 2^0, 1th index is 2^1, 2nd index is 2^2, 3rd index is 2^3
+    //(to understand this you can read about binary to decimal conversion)
     //so number is in order 1, 2, 4, 8, 16, 32... and so on.
     //so if we have number say..
     //00001011
