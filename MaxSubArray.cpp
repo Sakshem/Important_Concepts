@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-void solveO3()
+void solveO3() //solution with time complexity O(n^3)
 {
     int n;
     //first method with time complexity O(n^3)
@@ -25,7 +25,7 @@ void solveO3()
     }
     cout << "Maximum sum is: " << best << '\n';
 }
-void solveO2()
+void solveO2() //solution with time complexiy O(n^2)
 {
     int n;
     printf("Enter the size of the array:\n");
@@ -47,7 +47,7 @@ void solveO2()
     }
     printf("The maximum sum is: %d\n", best);
 }
-void solveO1()
+void solveO1() //solution with time complexity O(n)
 {
     int n;
     printf("Enter size of the array:\n");
