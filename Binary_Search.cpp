@@ -7,8 +7,8 @@ using namespace std;
  */
 int binarySearch(vector<int> &B, int n, int key)
 {
-    int L = B[0];
-    int R = B[n - 1];
+    int L = 0;
+    int R = n - 1;
     int mid;
     while(L <= R)
     {
