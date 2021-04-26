@@ -17,8 +17,7 @@ void solve()
     }*/
     auto possible_jobs = [&] (vector<jobs>& J) -> void {
         int n = (int) J.size();
-        cout << "Size: " << n << '\n';
-        int maximum = INT_MIN;
+        //cout << "Size: " << n << '\n';
         sort(J.begin(), J.end(), compare);
 
         vector<jobs> ans(n);
